@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+html,body {
+    min-height: 100dvh;
+}
+body {
+    font-family: 'Sora', sans-serif;
+    background: #fafaf9;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.container {
+    max-width: 80rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.card {
+    background: #fff;
+    max-width: 23rem;
+    margin: 10rem auto 0 auto;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.cardBody {
+    border-bottom: 1px solid #E5EAF0;
+}
+.badge {
+    background: #E6D6FC;
+    color: #883AE1;
+    display: inline-block;
+    padding: 0.37rem 1rem;
+    font-size: 0.625rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+.cardFooter {
+    font-size: 0.75rem;
+    color: #6C727F;
+}
+.cardBody, .cardFooter {
+    padding: 1rem;
+}
+.cardImage {
+    width: 100%;
+    height: 9.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.cardImage img {
+    display: block;
+    max-width: 100%;
+}
+h3 {
+    font-size: 1.125rem;
+    color: #20293A;
+    margin: 1rem 0;
+}
+p {
+    font-size: 0.875rem;
+    color: #6C727F;
+}
+footer {
+    width: 100%;
+    padding: 1rem 0;
+    background: #fff;
+    text-align: center;
+    color: #20293A;
+    font-size: 0.875rem;
+}
+footer a {
+    color: #883AE1;
+    font-weight: 500;
+    text-decoration: none;
+}
